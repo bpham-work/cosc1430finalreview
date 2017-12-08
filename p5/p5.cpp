@@ -48,6 +48,12 @@ void FindMinMax<T>::display() {
 
 int main() {
     FindMinMax<int> obj(1, 2, 3, 4, 5, 6);
+    FindMinMax<double> obj2(1.0, 1.1, 1.2, 1.3, 1.4, 1.5);
+    FindMinMax<float> obj3(0.1, 0.2, 0.3, 0.4, 0.5, 0.6);
+    FindMinMax<char> obj4('a', 'b', 'c', 'd', 'e', 'f');
     obj.display();
+    obj2.display();
+    obj3.display();
+    obj4.display();
     return 0;
 }
